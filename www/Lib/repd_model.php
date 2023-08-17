@@ -22,9 +22,9 @@ class REPD
     public function query($filters = array(), $order_by = "Installed Capacity (MWelec)") 
     {
         $filters = array();
-        $filters[] = array('column' => 'Operational', 'value' => NULL, 'not' => true);
+        // $filters[] = array('column' => 'Operational', 'value' => NULL, 'not' => true);
         $filters[] = array('column' => 'Country', 'value' => 'Wales');
-        $filters[] = array('column' => 'Technology Type', 'value' => 'Solar Photovoltaics');
+        // $filters[] = array('column' => 'Technology Type', 'value' => 'Solar Photovoltaics');
         //$filters[] = array('column' => 'Planning Application Withdrawn', 'value' => NULL);
         //$filters[] = array('column' => 'Planning Permission Refused', 'value' => NULL);
         //$filters[] = array('column' => 'Development Status', 'value' => 'Abandoned', 'not' => true);
